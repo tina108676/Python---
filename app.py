@@ -14,7 +14,6 @@ def login():
 
     # POST 才處理登入
     uid = request.form.get("userid")
-    username = request.form.get("username")
     password = request.form.get("password")
 
     if username == "admin" and password == "password":
